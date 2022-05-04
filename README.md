@@ -1,2 +1,2 @@
 # coolonlineddos.com
-lets go
+https://testingtesta.github.io/coolonlineddos.com/
