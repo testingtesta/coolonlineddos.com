@@ -1,5 +1,3 @@
-<input type="button" value = "STOP" onclick="history.go(0)" />
-
 
 function a() {
 
