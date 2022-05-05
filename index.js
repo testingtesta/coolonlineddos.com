@@ -1,4 +1,3 @@
-
 function a() {
 
     var x = prompt("Website Here, example.com: ");
